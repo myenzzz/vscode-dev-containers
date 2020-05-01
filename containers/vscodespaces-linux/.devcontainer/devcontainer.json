@@ -1,9 +1,7 @@
 {
-	"name": "VS Online (Linux Universal)",
+	"name": "VS Codespaces (Linux Universal)",
 	"dockerFile": "Dockerfile",
-	"remoteUser": "vsonline",
-	"workspaceMount": "source=${localWorkspaceFolder},target=/home/vsonline/workspace,type=bind,consistency=cached",
-	"workspaceFolder": "/home/vsonline/workspace",
+	"remoteUser": "vscodespaces",
 	"runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
 
 	// Add the IDs of extensions you want installed when the container is created.
